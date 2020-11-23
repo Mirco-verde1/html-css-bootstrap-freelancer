@@ -1,0 +1,28 @@
+[class*="col-"] {
+ border: 1px solid black;
+ text-align: center;
+ }
+
+
+.bg-nav{
+	background-color:#003366;
+	height: 80px;
+}
+
+ul li{
+	display: inline-block;
+	text-decoration: none;
+}
+
+.start-boot{
+	background:#00995c;
+	height: 100%;
+	color: #fff;
+	}
+
+@media screen and (min-width:768px) {
+
+.start-boot{
+	font-size: 30px;s
+}
+}
