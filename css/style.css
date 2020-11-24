@@ -9,12 +9,19 @@
 }
 /* COMMON CLASS */
 img{
-	width: 200px;
+	width: 350px;
 	height: auto;
 }
 
 .box{
 	height: 300px;
+}
+
+.btn{
+position: relative;
+transform: translate(-50%, -50%);
+left: 50%;
+margin-top: 25px;
 }
 
 /* FIRST ROW */
