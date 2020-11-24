@@ -1,13 +1,7 @@
-[class*="col-"] {
- text-align: center; }
-
+/* BARRA NAV */
 .nav>li{
  line-height: 50px;
  padding-right: 15px;
-}
-
-.bool-back-color{
- background-color: #003366;
 }
 
 
@@ -15,22 +9,49 @@
  color: #fff;
 }
 
+/* END NAV BAR */
+
 /* COMMON CLASS */
 img{
-height: 300px;
-padding: 15px;
+  width: 100%;
+  padding: 5px;
+  border-radius: 20px;
+  height: auto;
+
 }
 
-.box{
-	height: 300px;
+[class*="col-"] {
+ text-align: center; }
+
+
+.bool-back-color{
+ background-color: #003366;
+}
+.bool-white-color{
+ background-color:#fff;
 }
 
-.btn{
+.bool-text-blu{
+ color:#001a4d;
+}
+
+
+.btn-2{
 position: relative;
 transform: translate(-50%, -50%);
 left: 50%;
 margin-top: 25px;
-}
+ }
+
+.btn-3{
+position: relative;
+transform: translate(-50%, -50%);
+right:44%;
+margin-top: 25px;
+ }
+
+/* /COMMON CLASS */
+
 
 /* FIRST ROW */
 .start-boot{
@@ -44,26 +65,78 @@ margin-top: 25px;
 	font-size: 18px;
 	padding-top: 35px;
 }
+
+.img-avatar{
+  width: 330px;
+  height: auto;
+  position: relative;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 180px;
+}
  /* END FIRST ROW */
 
 
  /* SECOND ROW */
 .second-row{
-	color: #0059b3;
 	font-size: 35px;
 	font-weight: 700;
 	padding-top: 70px;
-	height: 120px;
 }
 
 .glyphicon{
-	padding-top: 40px;
+	padding: 40px 0;
+  font-size: 25px;
+
 }
+
+.star-icon::before , .star-icon::after{
+  content: "";
+  display: inline-block;
+  width: 100px;
+  height: 4px;
+  vertical-align:baseline;
+  background: #fff;
+  margin: 10px;
+  border-radius: 3px;
+}
+
+.star-icon-dark::before, .star-icon-dark::after{
+  content: "";
+  display: inline-block;
+  width: 100px;
+  height: 4px;
+  vertical-align:baseline;
+  margin: 10px;
+  border-radius: 3px;
+  background-color: #003366;
+
+}
+
 /* END SECOND ROW */
 
 
-/* ROW GREEN ABOUT */
+/* ROW  ABOUT */
 
 .row-green-about{
-  background-color:#1ABC9C;
+background:#1ABC9C;
+  color: #fff;
+}
+
+/* END ROW ABOUT */
+
+
+/* START CONTACT ME ROW */
+
+.form-bott-bord{
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  box-shadow: none;
+  color: #2c3e50;
+  font-size: 20px;
+}
+
+.bool-form ::placeholder{
+  color: #2c3e50;
+  font-size: 20px;
 }
